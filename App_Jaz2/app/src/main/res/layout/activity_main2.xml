@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    tools:context="com.edith.tlahuac.app_jaz.Main2Activity"
+    android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/datos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   CONFIRMAR DATOS"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NOMBRE:"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/direccion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DIRECCIÓN:"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/telefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TELÉFONO:"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/fecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FECHA:"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="120dp" >
+
+        <Button
+            android:id="@+id/editar"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="EDITAR"
+            android:layout_marginLeft="20dp"/>
+
+        <Button
+            android:id="@+id/confirmar"
+            android:layout_width="110dp"
+            android:layout_height="80dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="CONFIRMAR"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="80dp"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
